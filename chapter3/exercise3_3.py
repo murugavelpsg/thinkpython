@@ -1,6 +1,7 @@
 'Right justify'
 
 def right_justify(strInput):
+    'Right justifies the input string'
     length = len(strInput)
     print(' '*(70-length) + strInput)
 
