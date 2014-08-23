@@ -11,7 +11,7 @@ def draw_row(columns):
         print('|' + ' ' * 9, end='')
     print('|')
 
-def draw_lines(columns):
+def draw_pillars(columns):
     'Draws the squares given the columns'
     for i in range(4):
         draw_row(columns)
@@ -22,7 +22,7 @@ def draw_grid(rows, columns):
         return
     for i in range(rows):
         draw_border(columns)
-        draw_lines(columns)
+        draw_pillars(columns)
     draw_border(columns)
 
 
